@@ -2,7 +2,7 @@ const inputtdl = document.querySelector('.input')
 const buttontdl = document.querySelector('.buttoninput')
 const listtdl = document.querySelector('.todolist')
 
-function clickButton(e) {
+function Button(e) {
     e.preventDefault()
 
     const itemall = document.createElement('div')
@@ -29,7 +29,7 @@ function clickButton(e) {
     inputtdl.value = ''
 }
 
-function okdel(e) {
+function Delete(e) {
     const item = e.target
 
     if ( item.classList[0] === 'check-button') {
@@ -43,5 +43,5 @@ function okdel(e) {
     }
 }
 
-buttontdl.addEventListener('click', clickButton)
-listtdl.addEventListener('click', okdel)
+buttontdl.addEventListener('click', Button)
+listtdl.addEventListener('click', Delete)
