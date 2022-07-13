@@ -9,10 +9,6 @@ body {
     background-image: linear-gradient(to right, #4ad6d1, #b79e44, #cc37b8);
 }
 
-/* div:nth-of-type(1)  p:nth-of-type(1) {
-    display: flex;  
-    flex-wrap: wrap;
-  } */
 
 .container-title {
     display: grid;
