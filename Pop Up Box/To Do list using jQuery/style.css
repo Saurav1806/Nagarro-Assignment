@@ -1,0 +1,28 @@
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  #todos {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #todos li {
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid rgb(223, 101, 101);
+  }
+  
+  .deleteItem {
+    float: right;
+    color: #040907;
+    cursor: pointer;
+  }
+  
+  input[type=checkbox] {
+    margin-right: 15px;
+  }
+  body{
+    background-color: #f86ab1;
+  }
