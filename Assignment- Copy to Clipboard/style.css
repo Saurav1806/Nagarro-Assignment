@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(47, 202, 219);
+}
+.one{
+    display:grid;
+}
+.three{
+    display:grid;
+}
+h1{
+    text-align: center;
+    color: rgb(20, 19, 15);
+}
+.one,.two,.three{
+    text-align: center;
+}
+.three,.two{
+    margin-top: 50px;
+}
+button{
+    background-color: rgb(180, 252, 107);
+    border: 2px solid black;
+    display: inline;
+    font-size: large;
+    border-radius: 20px;;
+}
+
+textarea{
+    background-color: rgb(255, 117, 179);
+    border: 3px solid black;
+    border-radius: 18px;
+    font-size: large;
+    font-weight: bold;
+}
